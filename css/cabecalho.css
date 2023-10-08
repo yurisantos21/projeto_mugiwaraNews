@@ -1,0 +1,37 @@
+.cabecalho {
+	display: flex;
+	align-items: center;
+	font-family: 'Bangers', cursive;
+	font-weight: normal;
+    background-color: #9D183B;
+    margin: 0 auto;
+}
+
+.cabecalho_logo {
+	height: 225px;
+}
+
+.cabecalho_titulo {
+	font-size: 80px;
+	color: #E5DC76;
+}
+
+.cabecalho_lista {
+	list-style-type: none;
+	font-size: 32px;
+}
+
+.cabecalho_lista li {
+	display: inline;
+	margin-right: 10px;
+}
+
+.cabecalho_lista li a {
+	color: #E5DC76;
+	text-decoration: none;
+}
+
+.cabecalho_lista li a:hover {
+	text-decoration: line-through;
+	color: #DDAF52;
+}

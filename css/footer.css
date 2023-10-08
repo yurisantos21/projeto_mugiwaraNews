@@ -1,0 +1,52 @@
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #9D183B;
+}
+
+.sociais  {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.texto	{
+	display: flex;
+	flex-direction: column;
+}
+
+.sociais_img {
+	display: flex;
+	flex-direction: row;
+	margin: 20px 30px;
+
+}
+
+.sociais_img img {
+	height: 50px;
+
+}
+
+.sociais h3 {
+	font-family: 'Bangers', cursive;
+	font-weight: bold;
+	font-size: 28px;
+	color: #E5DC76;
+}
+
+.bink {
+	font-family: 'Esteban', serif;
+	font-size: 20px;
+	max-width: 100%;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+
+.copyright {
+	font-size: 18px;
+}
+
+.footer_img {
+	max-width: 220px;
+}
